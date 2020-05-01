@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ly-upload" />
+        <module name="ly-registry" />
+        <module name="ly-page" />
+        <module name="ly-common" />
+        <module name="ly-item" />
+        <module name="ly-order" />
+        <module name="ly-auth-pojo" />
+        <module name="ly-user" />
+        <module name="ly-order-pojo" />
+        <module name="ly-search" />
+        <module name="ly-user-api" />
+        <module name="ly-cart" />
+        <module name="ly-search-pojo" />
+        <module name="ly-item-api" />
+        <module name="ly-sharding-sphere" />
+        <module name="ly-gateway" />
+        <module name="ly-user-pojo" />
+        <module name="ly-auth" />
+        <module name="ly-auth-api" />
+        <module name="ly-sms" />
+        <module name="ly-item-pojo" />
+        <module name="ly-lock-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou126" target="1.8" />
+      <module name="ly-api" target="1.8" />
+      <module name="ly-auth" target="1.8" />
+      <module name="ly-auth-api" target="1.8" />
+      <module name="ly-auth-pojo" target="1.8" />
+      <module name="ly-cart" target="1.8" />
+      <module name="ly-common" target="1.8" />
+      <module name="ly-gateway" target="1.8" />
+      <module name="ly-item" target="1.8" />
+      <module name="ly-item-api" target="1.8" />
+      <module name="ly-item-pojo" target="1.8" />
+      <module name="ly-lock-demo" target="1.8" />
+      <module name="ly-order" target="1.8" />
+      <module name="ly-order-pojo" target="1.8" />
+      <module name="ly-page" target="1.8" />
+      <module name="ly-pojo" target="1.8" />
+      <module name="ly-registry" target="1.8" />
+      <module name="ly-search" target="1.8" />
+      <module name="ly-search-pojo" target="1.8" />
+      <module name="ly-sharding-sphere" target="1.8" />
+      <module name="ly-sms" target="1.8" />
+      <module name="ly-upload" target="1.8" />
+      <module name="ly-user" target="1.8" />
+      <module name="ly-user-api" target="1.8" />
+      <module name="ly-user-pojo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ly-auth" options="-parameters" />
+      <module name="ly-auth-api" options="-parameters" />
+      <module name="ly-auth-pojo" options="-parameters" />
+      <module name="ly-cart" options="-parameters" />
+      <module name="ly-common" options="-parameters" />
+      <module name="ly-gateway" options="-parameters" />
+      <module name="ly-item" options="-parameters" />
+      <module name="ly-item-api" options="-parameters" />
+      <module name="ly-item-pojo" options="-parameters" />
+      <module name="ly-lock-demo" options="-parameters" />
+      <module name="ly-order" options="-parameters" />
+      <module name="ly-order-pojo" options="-parameters" />
+      <module name="ly-page" options="-parameters" />
+      <module name="ly-registry" options="-parameters" />
+      <module name="ly-search" options="-parameters" />
+      <module name="ly-search-pojo" options="-parameters" />
+      <module name="ly-sharding-sphere" options="-parameters" />
+      <module name="ly-sms" options="-parameters" />
+      <module name="ly-upload" options="-parameters" />
+      <module name="ly-user" options="-parameters" />
+      <module name="ly-user-api" options="-parameters" />
+      <module name="ly-user-pojo" options="-parameters" />
+    </option>
+  </component>
+</project>
