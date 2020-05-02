@@ -6,7 +6,7 @@ spring:
   servlet:
     multipart:
       max-file-size: 5MB # 修改springmvc限制一次文件上传的总大小
-# Eureka
+# Eureka 
 eureka:
   client:
     service-url:
@@ -15,10 +15,10 @@ eureka:
     prefer-ip-address: true
 ly:
   oss:
-    accessKeyId: LTsdfsgsgA
-    accessKeySecret: f9ZsgsgsgsPexK
-    host: http://image.leyou.com # 访问oss的域名，很重要bucket + endpoint
-    endpoint: oss-cn-beijing.aliyuncs.com # 你的服务的端点，不一定跟我一样
+    accessKeyId: LTAI4Ft9PzY6MiU8NAu94Dc2
+    accessKeySecret: kkZHM1H6WEACl8hUzInizs81ul6XQV
+    host: http://ly-server-item.oss-cn-shenzhen.aliyuncs.com # 访问oss的域名，很重要bucket + endpoint
+    endpoint: oss-cn-shenzhen.aliyuncs.com # 你的服务的端点，不一定跟我一样
     dir: "" # 保存到bucket的某个子目录
     expireTime: 20 # 过期时间，单位是S
     maxFileSize: 5242880 #文件大小限制，这里是5M
