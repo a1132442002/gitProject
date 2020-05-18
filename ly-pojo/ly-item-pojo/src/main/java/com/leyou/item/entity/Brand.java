@@ -7,9 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
-/**
- * 黑马程序员
- */
+
 @Data
 @Table(name = "tb_brand")
 public class Brand {
